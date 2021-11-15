@@ -1,7 +1,8 @@
 # Bluetooth KeyboardWedge
 Arduino sketch for an ESP32 (ESP-WROOM-32) and an RC522 RFID reader
+
 This is a fork from https://github.com/zwack-am/KeyboardWedge
-It is ported to the ESP32 platform to support bluetooth. Some features have also been added, like serial debugging and the ability to change the "end" character. 
+It is ported to the ESP32 platform to support bluetooth. Some features have also been added, like serial debugging and the ability to change the "terminator" character. 
 
 -------------------
 
