@@ -3,6 +3,7 @@
 // if you have more than one record. This increase the chance of finding the password on first try. 
 // On ESP32, use GPIO 21 for SDA and GPIO 22 for SCL.
 // Keep in mind some special characters, like €, does not seem to be printed correctly with BLEKeyboard.
+// It's advisable to add 3.3 kOhm pullups to SDA and SCL lines, due to weak internal ones. 
 
 #include <Wire.h>
 #include <PN532_I2C.h>
